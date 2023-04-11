@@ -1,0 +1,185 @@
+
+.logo{
+  width: 50px;
+  float: left;
+  border-radius: 70%;
+  height: 50px;
+  margin-top: 2px;
+  margin-left: 15px;
+  margin-right: 25px;
+
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a{
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 500;
+}
+
+.nav-ul li a:hover{
+    color: white;
+    background-color: black;
+    padding: 2px 4px;
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: lightblue;
+}
+
+.footer{
+  position: end;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: lightseagreen ;
+ 
+}
+
+.login{
+  margin-left: 30%;
+  margin-top: 110px;
+}
+.reg, .product{
+  margin-left: 30%;
+  align-items: center;
+}
+
+.reg h1{
+  margin-left : 30px;
+}
+.input{
+  display: block;
+  margin: 25px;
+  margin-top: 30px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid cadetblue;
+}
+.invalid-input{
+  color: red;
+  font-size: smaller;
+  display: block;
+  margin-top: -20px;
+  margin-left: 30px;
+  text-decoration: underline; 
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid white;
+  padding: 5px;
+  width: 150px;
+  font-size: medium;
+  font-weight: 500;
+  margin : 2px;
+}
+.product-list ul{
+  margin: 0px;
+}
+.header-table li{
+  color: white;
+  background-color: darkcyan;
+  border : 1px solid white; 
+}
+
+.submit{
+  width: 150px;
+  padding: 10px;
+  margin : 25px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  justify-self: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.search-pro{
+  width: 400px;
+  height: 30px;
+  margin-bottom: 30px;
+ border: 1px solid cadetblue;
+ padding-left: 10px;
+}
+
+.update-link{
+  text-decoration: none;
+  margin-left: 13px;
+  
+  color : darkcyan ;
+  border: 1px solid teal ;
+  padding: 2px 5px;
+  font-size: small;
+}
+
+.delete-btn{
+  background-color: darkcyan;
+  color: white;
+  border: darkcyan;
+  padding: 4px 8px;
+
+}
+
+.Profile{
+  display: block;
+  width: 650px;
+  padding: 30px 0px;
+  /* height: 450px; */
+
+  margin: auto;
+  border-radius: 70%;
+  text-align: center;
+  font-size: large;
+  
+  border: 20px solid tomato; 
+  margin-top: 90px;
+  color: white;
+  background-color: teal;
+  text-decoration: underline;
+  /* border-radius: 20%; */
+}
+ .Profile:hover{
+border-radius: 0%;
+background-color: tomato;
+border: 20px solid teal;
+
+} 
+
+/* @media(max-width: 450px){
+  body{
+font-size: xx-small;
+  }
+
+  .Profile{
+    width: 250px ;
+    border-radius: 0%;
+  }
+
+  .input{
+    width: 150px;
+  }
+
+  .product-list ul li{
+    width: 40px;
+  }
+  } */
+
+ 
